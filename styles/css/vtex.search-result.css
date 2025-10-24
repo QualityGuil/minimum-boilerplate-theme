@@ -1,0 +1,25 @@
+.totalProducts--layout {
+    text-align: left;
+}
+/* 
+.totalProductsMessage--total-products {
+    background-color: aqua;
+    padding: 0;
+} */
+
+.galleryItem  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.galleryItem--normal  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+

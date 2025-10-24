@@ -1,0 +1,12 @@
+.vtex-button {
+    background-color: #6db8b6;
+}
+
+/* 
+.element .add-to-cart-button{
+    background-color: #6db8b6;
+} */
+
+.element :global(.vtex-button__label) {
+    background-color: #6db8b6;
+}
