@@ -1,6 +1,9 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"],
+    "props": {
+      "blockClass": "footer-container"
+    }
   },
   "footer-layout.desktop": { 
     "children": [
@@ -14,13 +17,16 @@
   },
   "flex-layout.row#footer": { 
     "children": [
-      "image"
-    ]
+      "image#footer"
+    ],
+    "props": {
+      "blockClass": "row-footer"
+    }
   },
-  "image": {
+  "image#footer": {
     "props": {
       "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/4639bf18-3d80-4c2f-9ccd-b02724a2f353___ca0c262b27096884187d516157cb39cf.svg"
     }
   }
 }

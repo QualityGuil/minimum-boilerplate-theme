@@ -1,0 +1,6 @@
+.footerLayout {
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    /* position: relative; */
+}

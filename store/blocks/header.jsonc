@@ -22,15 +22,12 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "header-main"
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.row#"
     ]
   },
   "flex-layout.col#spacer": {
@@ -48,32 +45,27 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/4639bf18-3d80-4c2f-9ccd-b02724a2f353___ca0c262b27096884187d516157cb39cf.svg",
       "width": "80"
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": ["flex-layout.row#desktop"]
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#logo-desktop"
     ],
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "drawer": {
-    "children": []
   }
 }

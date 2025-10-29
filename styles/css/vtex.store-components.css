@@ -6,3 +6,37 @@
     width: 100%;
     height: 350px;
 }
+
+.imageElement--home-slider-image {
+    height: 450px;
+    width: 100%;
+}
+
+.container {
+    margin: 15px 0;
+}
+
+.infoCardContainer--info-card-home {
+  /* max-height: 715px; */
+  height: 400px;
+  margin: 0 auto;
+  background-color: red;
+  padding: 0px;
+}
+
+.infoCardHeadline--info-card-home {
+    color: white;
+}
+
+/* .infoCardCallActionContainer--info-card-home {
+    background-color: ;
+} */
+
+.imageElement--image-offer {
+    width: 250px;
+    cursor: pointer;
+}
+
+.logoImage {
+    padding: 15px;
+}

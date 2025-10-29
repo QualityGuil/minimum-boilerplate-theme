@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#offers-container": {
+        "children": [
+            "flex-layout.col#offer1",
+            "flex-layout.col#offer2",
+            "flex-layout.col#offer1",
+            "flex-layout.col#offer2"
+        ],
+        "props": {
+            "blockClass": "offers-container",
+            "colJustify": "around"
+        }
+    },
+    "flex-layout.col#offer1": {
+        "children": [
+            "image#offer1",
+            "rich-text#offer1"
+        ],
+        "props": {
+            "blockClass": "offer"
+        }
+    },
+    "image#offer1": {
+        "props": {
+            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/3ef2b3d3-3c0e-425f-82a6-56ab09735018___f04f8b588eaf96ec426598cd8739e73e.png",
+            "blockClass": "image-offer"
+        }
+    },
+    "rich-text#offer1": {
+        "props": {
+            "text": "Teste"
+        }
+    },
+    "flex-layout.col#offer2": {
+        "children": [
+            "image#offer2",
+            "rich-text#offer2"
+        ],
+        "props": {
+            "blockClass": "offer"
+        }
+    },
+    "image#offer2": {
+        "props": {
+            "src": "https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c55c8ef7-64f6-4cd3-9be4-bde16ea33045___cd5ea204b9f12b081fd2f428e5ee5c71.png",
+            "blockClass": "image-offer"
+        }
+    },
+    "rich-text#offer2": {
+        "props": {
+            "text": "Teste"
+        }
+    }
+}

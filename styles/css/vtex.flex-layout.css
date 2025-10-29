@@ -1,0 +1,36 @@
+.flexRow--flex-row-SEO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexRow--offers-container {
+    justify-content: space-between;
+}
+
+.flexColChild--offer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flexRow--deals {
+    background-color: red;
+}
+
+.flexRow--sticky-header-desktop {
+    /* height: 50px; */
+    background-color: red;
+}
+
+.flexRowContent--header-main {
+    background-color: red;
+}
+
+.flexRow--row-footer {
+    background-color: red;
+}
+
+:global(.vtex-store-footer-2-x-footer-container) {
+    background-color: red;   
+}

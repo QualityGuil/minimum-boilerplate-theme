@@ -1,0 +1,38 @@
+{
+    "slider-layout#home": {
+        "children": [
+            "image#brand1",
+            "image#brand2",
+            "image#brand3"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+        }
+    },
+    "image#brand1": {
+        "props": {
+            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/d1eed76f-5843-44b2-b170-2af8045d55c8___3e8d4ee7da30bef71ab72bd678a1189f.png",
+            "blockClass": "home-slider-image"
+        }
+    },
+    "image#brand2": {
+        "props": {
+            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/d1eed76f-5843-44b2-b170-2af8045d55c8___3e8d4ee7da30bef71ab72bd678a1189f.png",
+            "blockClass": "home-slider-image"
+        }
+    },
+    "image#brand3": {
+        "props": {
+            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/d1eed76f-5843-44b2-b170-2af8045d55c8___3e8d4ee7da30bef71ab72bd678a1189f.png",
+            "blockClass": "home-slider-image"
+        }
+    }
+}
