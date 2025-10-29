@@ -19,19 +19,19 @@
     },
     "image#brand1": {
         "props": {
-            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/d1eed76f-5843-44b2-b170-2af8045d55c8___3e8d4ee7da30bef71ab72bd678a1189f.png",
+            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/66cda108-4a7a-4a7d-b6b2-43ea66867837___23fae7047c9b07dc428b95654cca0f49.png",
             "blockClass": "home-slider-image"
         }
     },
     "image#brand2": {
         "props": {
-            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/d1eed76f-5843-44b2-b170-2af8045d55c8___3e8d4ee7da30bef71ab72bd678a1189f.png",
+            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/9bdd0e89-73aa-4b53-80e4-d62646ae4f5a___d69fe2d784483fa39ea7ffc2f8be3892.png",
             "blockClass": "home-slider-image"
         }
     },
     "image#brand3": {
         "props": {
-            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/d1eed76f-5843-44b2-b170-2af8045d55c8___3e8d4ee7da30bef71ab72bd678a1189f.png",
+            "src": "https://acctglobal.vtexassets.com/assets/vtex.file-manager-graphql/images/d5b3586c-8d7e-484f-96bd-135902a405eb___07312f1d35bafbbdfca93bca04194264.png",
             "blockClass": "home-slider-image"
         }
     }

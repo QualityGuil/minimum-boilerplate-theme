@@ -27,9 +27,42 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.row#"
+      "flex-layout.row#navegation"
     ]
   },
+
+  "flex-layout.row#navegation": {
+    "children": [
+      "rich-text#produtos",
+      "rich-text#ofertas",
+      "rich-text#sobrenos"
+    ],
+    "props": {
+      "blockClass": "header-navegation",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#produtos": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "text-navegation"
+    }
+  },
+  "rich-text#ofertas": {
+    "props": {
+      "text": "Ofertas",
+      "blockClass": "text-navegation"
+    }
+  },
+  "rich-text#sobrenos": {
+    "props": {
+      "text": "Sobre nós",
+      "blockClass": "text-navegation"
+    }
+  },
+
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"

@@ -19,12 +19,12 @@
     "image#deal1": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-            "maxHeight": "25px"
+            "blockClass": "image-deal"
         }
     },
     "rich-text#deal1": {
         "props": {
-            "text": "Free shipping",
+            "text": "Entrega grátis",
             "blockClass": "deals"
         }
     },
@@ -37,12 +37,12 @@
     "image#deal2": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-            "maxHeight": "24px"
+            "blockClass": "image-deal"
         }
     },
     "rich-text#deal2": {
         "props": {
-            "text": "One day delivery",
+            "text": "Entregas em até um dia",
             "blockClass": "deals"
         }
     },
@@ -55,12 +55,12 @@
     "image#deal3": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-            "maxHeight": "24px"
+            "blockClass": "image-deal"
         }
     },
     "rich-text#deal3": {
         "props": {
-            "text": "Pick up in store",
+            "text": "Retirada na loja",
             "blockClass": "deals"
         }
     },
@@ -73,12 +73,12 @@
     "image#deal4": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-            "maxHeight": "24px"
+            "blockClass": "image-deal"
         }
     },
     "rich-text#deal4": {
         "props": {
-            "text": "Exclusive deals",
+            "text": "Ofertas exclusivas",
             "blockClass": "deals"
         }
     }

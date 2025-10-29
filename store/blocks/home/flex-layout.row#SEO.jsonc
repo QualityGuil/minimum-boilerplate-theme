@@ -15,7 +15,7 @@
     },
     "rich-text#SEO-title": {
         "props": {
-            "text": "**Promoção Dia das Crianças 2025 - Brinquedos com até 50% OFF | Brinquedolândia**",
+            "text": "**Promoção Dia das Crianças 2025 <br> Brinquedos com até 50% OFF**",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-5",
@@ -26,7 +26,8 @@
         "props": {
             "text": "Aproveite a Promoção de Dia das Crianças na Brinquedolândia! Brinquedos educativos, bonecas, carrinhos e jogos com até 50% de desconto. Garanta o presente ideal e faça a alegria dos pequenos!",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "SEO-body"
         }
     }
 }

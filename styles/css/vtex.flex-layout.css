@@ -16,6 +16,8 @@
 
 .flexRow--deals {
     background-color: red;
+    /* height: 50px; */
+    padding: 1px;
 }
 
 .flexRow--sticky-header-desktop {
@@ -34,3 +36,11 @@
 :global(.vtex-store-footer-2-x-footer-container) {
     background-color: red;   
 }
+
+.flexRow--header-navegation {
+    width: 250px;
+}
+
+/* .flexRow--flex-row-SEO {
+    background: ;
+} */
